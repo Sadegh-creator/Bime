@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ø¨ÛŒÙ…Ù‡ Ø´Ú©ÛŒØ¨Ø§</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+        header {
+            background-color: #0078D7;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #005BB5;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-image: url('file-FaMe5pNJUshFMxqNfhLLb4');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: white;
+            padding: 50px 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            flex: 1 1 200px;
+        }
+        footer {
+            text-align: center;
+            background-color: #0078D7;
+            color: white;
+            padding: 10px 0;
+        }
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .whatsapp a {
+            color: white;
+            font-size: 30px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ø¨ÛŒÙ…Ù‡ Ø´Ú©ÛŒØ¨Ø§</h1>
+        <p>Ø§Ù…Ù†ÛŒØª Ø§Ù…Ø±ÙˆØ²ØŒ Ø¢ÛŒÙ†Ø¯Ù‡â€ŒØ§ÛŒ Ù…Ø·Ù…Ø¦Ù† Ø¨Ø§ Ø´Ú©ÛŒØ¨Ø§</p>
+    </header>
+    <nav>
+        <a href="#services">Ø®Ø¯Ù…Ø§Øª</a>
+        <a href="#about">Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ù…Ø§</a>
+        <a href="#contact">ØªÙ…Ø§Ø³ Ø¨Ø§ Ù…Ø§</a>
+    </nav>
+    <section class="hero">
+        <h2>Ø¨Ù‡ØªØ±ÛŒÙ† Ø®Ø¯Ù…Ø§Øª Ø¨ÛŒÙ…Ù‡â€ŒØ§ÛŒ</h2>
+        <p>Ø¢Ø±Ø§Ù…Ø´ Ùˆ Ø§Ù…Ù†ÛŒØª Ø±Ø§ Ø¨Ø§ Ù…Ø§ ØªØ¬Ø±Ø¨Ù‡ Ú©Ù†ÛŒØ¯</p>
+    </section>
+    <section id="services" class="content">
+        <h2>Ø®Ø¯Ù…Ø§Øª Ù…Ø§</h2>
+        <div class="services">
+            <div class="card">
+                <h3>Ø¨ÛŒÙ…Ù‡ ØªÚ©Ù…ÛŒÙ„ÛŒ</h3>
+                <p>Ù¾ÙˆØ´Ø´ Ú©Ø§Ù…Ù„ Ø¨Ø±Ø§ÛŒ Ø³Ù„Ø§Ù…Øª Ø´Ù…Ø§.</p>
+            </div>
+            <div class="card">
+                <h3>Ø¨ÛŒÙ…Ù‡ Ø¨Ø§Ø²Ù†Ø´Ø³ØªÚ¯ÛŒ</h3>
+                <p>Ø¢ÛŒÙ†Ø¯Ù‡â€ŒØ§ÛŒ Ø¢Ø±Ø§Ù… Ø¨Ø±Ø§ÛŒ Ø´Ù…Ø§.</p>
+            </div>
+            <div class="card">
+                <h3>Ø¨ÛŒÙ…Ù‡ Ø¹Ù…Ø±</h3>
+                <p>Ø³Ø±Ù…Ø§ÛŒÙ‡â€ŒÚ¯Ø°Ø§Ø±ÛŒ Ù‡Ù…Ø±Ø§Ù‡ Ø¨Ø§ Ø§Ù…Ù†ÛŒØª.</p>
+            </div>
+            <div class="card">
+                <h3>Ø¨ÛŒÙ…Ù‡ Ø§ØªÙˆÙ…Ø¨ÛŒÙ„</h3>
+                <p>Ù…Ø­Ø§ÙØ¸Øª Ø§Ø² Ø®ÙˆØ¯Ø±ÙˆÙ‡Ø§ÛŒ Ø´Ù…Ø§.</p>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="content">
+        <h2>Ø¯Ø±Ø¨Ø§Ø±Ù‡ Ù…Ø§</h2>
+        <p>Ø´Ø±Ú©Øª Ø¨ÛŒÙ…Ù‡ Ø´Ú©ÛŒØ¨Ø§ Ø¨Ø§ Ø³Ø§Ù„â€ŒÙ‡Ø§ ØªØ¬Ø±Ø¨Ù‡ Ø¯Ø± Ø§Ø±Ø§Ø¦Ù‡ Ø®Ø¯Ù…Ø§Øª Ø¨ÛŒÙ…Ù‡â€ŒØ§ÛŒØŒ Ø¢Ù…Ø§Ø¯Ù‡ Ø§Ø±Ø§Ø¦Ù‡ Ø¨Ù‡ØªØ±ÛŒÙ† Ø®Ø¯Ù…Ø§Øª Ø¨Ù‡ Ø´Ù…Ø§Ø³Øª.</p>
+    </section>
+    <section id="contact" class="content">
+        <h2>ØªÙ…Ø§Ø³ Ø¨Ø§ Ù…Ø§</h2>
+        <p>Ø´Ù…Ø§Ø±Ù‡ ØªÙ…Ø§Ø³: 09355854144</p>
+        <p>Ø§ÛŒÙ…ÛŒÙ„: info@shakiba-insurance.com</p>
+    </section>
+    <footer>
+        <p>Â© 2024 Ø¨ÛŒÙ…Ù‡ Ø´Ú©ÛŒØ¨Ø§. ØªÙ…Ø§Ù…ÛŒ Ø­Ù‚ÙˆÙ‚ Ù…Ø­ÙÙˆØ¸ Ø§Ø³Øª.</p>
+    </footer>
+    <div class="whatsapp">
+        <a href="https://wa.me/09355854144" target="_blank">ðŸ“ž</a>
+    </div>
+</body>
+</html>
